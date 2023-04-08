@@ -1,0 +1,106 @@
+body{
+  background-color: #23242a;
+}
+  .header {
+    color: #45f3ff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  
+  .inputbox {
+    position: relative;
+    width: 360px;
+    margin-top: 30px;
+  }
+  .inputbox input{
+    /* position: relative; */
+    width: 100%;
+    padding: 14px;
+    background: transparent;
+    border: none;
+    outline: none;
+    /* color: #23242a; */
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.08em;
+  }
+  
+  .inputbox hr {
+    background-color: #45f3ff;
+    height: 2px;
+    border: none;
+    pointer-events: none;
+  }
+  
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 40px;
+  }
+  .btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #45f3ff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* User Signup */
+  
+  .signup_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+  }
+  .login_container{
+    width: 440px;
+    height: 300px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    padding: 50px 40px;
+  }
+  .signup_container {
+    width: 440px;
+    height: 500px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    padding: 50px 40px;
+  }
+  .signup_btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #45f3ff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .btn_div {
+    margin-top: 30px;
+  }
+  .u_signupFooter {
+    margin-top: 14px;
+    text-align: center;
+  }
+  .u_signupFooter a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .u_signupFooter a:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+  .pass_input{
+    display: flex;
+  }
+  .showpassword{
+    position: relative;
+    top: 38px;
+    right: 40px;
+  }
