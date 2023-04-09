@@ -3,14 +3,14 @@ import SignUp from './pages/SignUp';
 import Dashboard from './pages/Dashboard';
 import Otp from './pages/Otp';
 import Error from './pages/Error';
-import Headers from './components/Headers';
+import Header from './components/Header';
 import { Routes, Route } from "react-router-dom"
 import './App.css';
 
 function App() {
   return (
     <>
-      <Headers />
+      <Header />
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/signup' element={<SignUp />} />
