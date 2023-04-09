@@ -41,6 +41,7 @@ const SignUp = () => {
       alert("password length minimum 6 character");
     } else {
       const response = await registerfunction(inputdata);
+      // console.log(response);
        if(response.status === 200){
         setInputData({...inputdata,username:"",email:"",password:""})
         navigate("/")
@@ -61,6 +62,7 @@ const SignUp = () => {
             name="username"
             placeholder="Enter your Name"
             onChange={handleChange}
+            autoComplete="off"
           />
           {/*<span>Email</span>*/}
           <hr />
@@ -72,6 +74,7 @@ const SignUp = () => {
             name="email"
             placeholder="Enter your Email"
             onChange={handleChange}
+            autoComplete="off"
           />
           {/*<span>Email</span>*/}
           <hr />
